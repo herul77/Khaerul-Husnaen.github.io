@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ask Me</title>
+  <link href="askme.css" rel="stylesheet" type="text/css">
+ </head>
+<body>
+	<nav id="desktop-nav">
+      <div class="logo">Khaerul Husnaen</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="Profile.html">Profile</a></li>
+          <li><a href="askme.html">Ask me</a></li>
+          <li><a href="portofolio.html">Portofolio</a></li>
+        </ul>
+      </div>
+    </nav>
+	<nav id="hamburger-nav">
+      <div class="logo">Khaerul Husnaen</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="Index.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="Profile.html" onclick="toggleMenu()">Profile</a></li>
+          <li><a href="askme.html" onclick="toggleMenu()">Ask me</a></li>
+          <li><a href="portofolio.html" onclick="toggleMenu()">Portofolio</a></li>
+        </div>
+      </div>
+    </nav>
+	<section id="Askme">
+		<div>
+			<div class="section__text">
+				<h1 class="title">send me a message!</h1>
+				<p>Got a question or proposal, or just want</p>
+				<p>to say hello? Go ahead</p>
+			</div>
+			<div class="askme">
+				<form action="#">
+					<div class="form-row">
+						<div class="input-data">
+						  <label for="yname">Your name</label>
+						  <input type="text" id="yname" name="yname" required placeholder="Enter your name">
+						</div>
+						<div class="input-data">
+						  <label for="yemail">Your email</label>
+						  <input type="text" id="yemail" name="yemail" required placeholder="Enter your email address">
+						</div>
+					</div>
+					<div class="form-row">
+             			<div class="input-data textarea">
+						  <label for="ymessage">Your message</label>
+						  <textarea type="text" id="ymessage" name="ymessage" required placeholder="Hi, I think we need a design system for our products. how soon can you hop on to discuss this?"></textarea>
+						</div>
+           			</div>
+					<br>
+					<div class="submit-btn">
+						<button type="submit"><span>Submit</span></button>
+                    </div>
+				</form>
+			</div>
+		</div>
+	</section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container"> <a href="mailto:khaerulhusnaen04@gmail.com"><img
+            src="email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          /></a>
+          <p><a href="mailto:khaerulhusnaen04@gmail.com">khaerulhusnaen04@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container"> <a href="https://www.linkedin.com/in/khaerul-husnaen-7a0840286/" target="new"><img
+            src="linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          /></a>
+          <p><a href="https://www.linkedin.com/in/khaerul-husnaen-7a0840286/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+	  <div>
+		<a href="Index.html" class="back-icon">
+          <img src="back-button.png" alt="Back Icon" class="icon back-icon">
+        </a>
+	  </div>
+	  <p>Copyright &#169; 2023 Khaerul Husnaen. All Rights Reserved.</p>
+    </footer>
+	<script src="script.js"></script>
+  </body>
+</html>

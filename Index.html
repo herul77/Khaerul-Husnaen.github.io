@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link href="Homepage.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+        <nav id="desktop-nav">
+      <div class="logo">Khaerul Husnaen</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="Homepage.html">Home</a></li>
+          <li><a href="Profile.html">Profile</a></li>
+          <li><a href="askme.html">Askme</a></li>
+          <li><a href="portofolio.html">Portofolio</a></li>
+        </ul>
+      </div>
+    </nav>
+	<nav id="hamburger-nav">
+      <div class="logo">Khaerul Husnaen</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="Homepage.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="Profile.html" onclick="toggleMenu()">Profile</a></li>
+          <li><a href="askme.html" onclick="toggleMenu()">Ask me</a></li>
+          <li><a href="portofolio.html" onclick="toggleMenu()">Portofolio</a></li>
+        </div>
+      </div>
+    </nav>
+  <section id="profile">
+    <div class="section__text">
+        <p class="section__text__p1">Hello, Welcome To My Page</p>
+        <h1 class="title">I'm Khaerul Husnaen</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" id="exploreButton">Explore More</button>
+        </div>
+    </div>
+    </section>
+	<section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container"> <a href="mailto:khaerulhusnaen04@gmail.com"><img
+            src="icons8-email-60.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          /></a>
+          <p><a href="mailto:khaerulhusnaen04@gmail.com">khaerulhusnaen04@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container"> <a href="https://www.linkedin.com/in/khaerul-husnaen-7a0840286/" target="new"><img
+            src="icons8-linkedin-50.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          /></a>
+          <p><a href="https://www.linkedin.com/in/khaerul-husnaen-7a0840286/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+		<p>Copyright &#169; 2023 Khaerul Husnaen. All Rights Reserved.</p>
+	</footer>	 
+  <script src="homepage.js"></script>
+  </body>
+</html>
